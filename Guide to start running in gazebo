@@ -1,0 +1,42 @@
+After instalation all the packages in his corresponding files. THis how you start the simuation
+
+Open Gazebo world
+cd catkin_ws/src
+roslaunch iq_sim hills.launch
+
+# New Terminal
+cd
+./startsitl.sh
+//after starting it wait to compile the next two processes and call: 
+mode guided
+
+# New Terminal
+cd catkin_ws/src
+(If it fails send it without the folder address)
+roslaunch iq_sim apm.launch
+
+# New Terminal
+cd ~/catkin_ws/src/iq_gnc/
+(If it fails send it without the folder address)
+rosrun iq_gnc square
+
+# New Terminal (Dron Camera with mask)
+cd ~/catkin_ws/src/vision/src
+python2.7 vision D.py
+
+# New Terminal (Robot arm camara with mkas)
+
+Robot Camera with mask
+cd ~/catkin_ws/src/vision/src
+python2.7 vision R.py
+
+# New Terminal (Robot routine) 
+cd ~/catkin_ws/src/
+rostopic pub robotito std_msgs/String "e ../catkin_ws/src/miRobot/programas/coger"
+
+
+If we modified the file of the routine of the dron, we need to complie with the next comand in a new terminal.
+
+cd ~/catkin_ws
+catkin build
+source ~/.bashrc
