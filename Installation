@@ -1,0 +1,53 @@
+Quick installation guide
+
+DRON
+FOllow the next repositories to the installation, if you have problems, in the repositories you can found videos of them.
+
+1-https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/Installing_Ardupilot.md
+2-https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_qgc.md
+3-https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_gazebo_arduplugin.md
+4-https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_ros.md
+5-https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/ros_intro.md
+6-https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/ardu_params_and_commands.md
+Routine
+1-https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/gnc_tutorial.md
+Camara
+1-https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/intro_to_yolo.md
+Sensor
+1-https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/adding_a_sensor.md
+Routine with sensor
+2-https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/avoidance.md
+
+
+Mobile Robot with robot arm and routine
+In the video we can appreciated a routine of how the robot to a pick and place
+1- https://www.youtube.com/watch v=BJ1JVI1l70Q&list=PL2bUNdUcvvm0CtampWejh0ekjAP8QB9bc&index=15
+2-https://github.com/raytrapi/miRobot
+Camara Mobile Robot
+1- https://www.youtube.com/watch?v=SLe74btrPb8&list=PL2bUNdUcvvm0CtampWejh0ekjAP8QB9bc&index=19&t=1799s
+
+Open CV
+How to activate and work with opencv and ROS
+https://dhanuzch.medium.com/using-opencv-with-gazebo-in-robot-operating-system-ros-part-0-getting-everything-set-up-b60d4b2e472e
+
+Vision
+To vision we have 2 codes that are made by me.
+Avoidance D.py it from the drone
+Avoidance R.py it from the robot
+
+
+Images in gazebo
+How to implement photos in gazebo
+https://www.youtube.com/watch?v=zEJT--XYW6E
+
+///////////////////////////////////////////////////////////////////////////////
+
+KEY TAGS TO EDITS WORLDS
+
+ <pose> specify a position of an object with respect to the last object in the hierarchy
+
+ <link> specifies an object to be attached to the model
+
+ <joint> specifies how the link is attached to the model
+
+
